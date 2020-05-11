@@ -40,7 +40,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+var test
         // Do any additional setup after loading the view, typically from a nib.
         self.locationManager = CLLocationManager()
         self.locationManager.delegate = self
